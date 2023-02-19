@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570FB3DC29975663003D6B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3DB29975663003D6B24 /* AppDelegate.swift */; };
+		570FB3DE29975663003D6B24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3DD29975663003D6B24 /* SceneDelegate.swift */; };
+		570FB3E029975663003D6B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3DF29975663003D6B24 /* ViewController.swift */; };
+		570FB3E329975663003D6B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570FB3E129975663003D6B24 /* Main.storyboard */; };
+		570FB3E529975665003D6B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570FB3E429975665003D6B24 /* Assets.xcassets */; };
+		570FB3E829975665003D6B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570FB3E629975665003D6B24 /* LaunchScreen.storyboard */; };
+		570FB3F329975666003D6B24 /* Polyglot_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3F229975666003D6B24 /* Polyglot_AITests.swift */; };
+		570FB3FD29975666003D6B24 /* Polyglot_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3FC29975666003D6B24 /* Polyglot_AIUITests.swift */; };
+		570FB3FF29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3FE29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift */; };
+		572B11502998AE6D001E403F /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 572B114F2998AE6D001E403F /* OpenAISwift */; };
+		572B11522998AE9D001E403F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B11512998AE9D001E403F /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570FB3EF29975665003D6B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570FB3D029975663003D6B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570FB3D729975663003D6B24;
+			remoteInfo = "Polyglot AI";
+		};
+		570FB3F929975666003D6B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570FB3D029975663003D6B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570FB3D729975663003D6B24;
+			remoteInfo = "Polyglot AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570FB3D829975663003D6B24 /* Polyglot AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polyglot AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570FB3DB29975663003D6B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		570FB3DD29975663003D6B24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		570FB3DF29975663003D6B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		570FB3E229975663003D6B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		570FB3E429975665003D6B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570FB3E729975665003D6B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570FB3E929975665003D6B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570FB3EE29975665003D6B24 /* Polyglot AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polyglot AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570FB3F229975666003D6B24 /* Polyglot_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polyglot_AITests.swift; sourceTree = "<group>"; };
+		570FB3F829975666003D6B24 /* Polyglot AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polyglot AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570FB3FC29975666003D6B24 /* Polyglot_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polyglot_AIUITests.swift; sourceTree = "<group>"; };
+		570FB3FE29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polyglot_AIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		572B11512998AE9D001E403F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570FB3D529975663003D6B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B11502998AE6D001E403F /* OpenAISwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FB3EB29975665003D6B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FB3F529975666003D6B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570FB3CF29975663003D6B24 = {
+			isa = PBXGroup;
+			children = (
+				570FB3DA29975663003D6B24 /* Polyglot AI */,
+				570FB3F129975665003D6B24 /* Polyglot AITests */,
+				570FB3FB29975666003D6B24 /* Polyglot AIUITests */,
+				570FB3D929975663003D6B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570FB3D929975663003D6B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570FB3D829975663003D6B24 /* Polyglot AI.app */,
+				570FB3EE29975665003D6B24 /* Polyglot AITests.xctest */,
+				570FB3F829975666003D6B24 /* Polyglot AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570FB3DA29975663003D6B24 /* Polyglot AI */ = {
+			isa = PBXGroup;
+			children = (
+				570FB3DB29975663003D6B24 /* AppDelegate.swift */,
+				570FB3DD29975663003D6B24 /* SceneDelegate.swift */,
+				570FB3DF29975663003D6B24 /* ViewController.swift */,
+				572B11512998AE9D001E403F /* NetworkManager.swift */,
+				570FB3E129975663003D6B24 /* Main.storyboard */,
+				570FB3E429975665003D6B24 /* Assets.xcassets */,
+				570FB3E629975665003D6B24 /* LaunchScreen.storyboard */,
+				570FB3E929975665003D6B24 /* Info.plist */,
+			);
+			path = "Polyglot AI";
+			sourceTree = "<group>";
+		};
+		570FB3F129975665003D6B24 /* Polyglot AITests */ = {
+			isa = PBXGroup;
+			children = (
+				570FB3F229975666003D6B24 /* Polyglot_AITests.swift */,
+			);
+			path = "Polyglot AITests";
+			sourceTree = "<group>";
+		};
+		570FB3FB29975666003D6B24 /* Polyglot AIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				570FB3FC29975666003D6B24 /* Polyglot_AIUITests.swift */,
+				570FB3FE29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift */,
+			);
+			path = "Polyglot AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570FB3D729975663003D6B24 /* Polyglot AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570FB40229975666003D6B24 /* Build configuration list for PBXNativeTarget "Polyglot AI" */;
+			buildPhases = (
+				570FB3D429975663003D6B24 /* Sources */,
+				570FB3D529975663003D6B24 /* Frameworks */,
+				570FB3D629975663003D6B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polyglot AI";
+			packageProductDependencies = (
+				572B114F2998AE6D001E403F /* OpenAISwift */,
+			);
+			productName = "Polyglot AI";
+			productReference = 570FB3D829975663003D6B24 /* Polyglot AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		570FB3ED29975665003D6B24 /* Polyglot AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570FB40529975666003D6B24 /* Build configuration list for PBXNativeTarget "Polyglot AITests" */;
+			buildPhases = (
+				570FB3EA29975665003D6B24 /* Sources */,
+				570FB3EB29975665003D6B24 /* Frameworks */,
+				570FB3EC29975665003D6B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570FB3F029975665003D6B24 /* PBXTargetDependency */,
+			);
+			name = "Polyglot AITests";
+			productName = "Polyglot AITests";
+			productReference = 570FB3EE29975665003D6B24 /* Polyglot AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		570FB3F729975666003D6B24 /* Polyglot AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570FB40829975666003D6B24 /* Build configuration list for PBXNativeTarget "Polyglot AIUITests" */;
+			buildPhases = (
+				570FB3F429975666003D6B24 /* Sources */,
+				570FB3F529975666003D6B24 /* Frameworks */,
+				570FB3F629975666003D6B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570FB3FA29975666003D6B24 /* PBXTargetDependency */,
+			);
+			name = "Polyglot AIUITests";
+			productName = "Polyglot AIUITests";
+			productReference = 570FB3F829975666003D6B24 /* Polyglot AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570FB3D029975663003D6B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					570FB3D729975663003D6B24 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					570FB3ED29975665003D6B24 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 570FB3D729975663003D6B24;
+					};
+					570FB3F729975666003D6B24 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 570FB3D729975663003D6B24;
+					};
+				};
+			};
+			buildConfigurationList = 570FB3D329975663003D6B24 /* Build configuration list for PBXProject "Polyglot AI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 570FB3CF29975663003D6B24;
+			packageReferences = (
+				572B114E2998AE6D001E403F /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
+			productRefGroup = 570FB3D929975663003D6B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570FB3D729975663003D6B24 /* Polyglot AI */,
+				570FB3ED29975665003D6B24 /* Polyglot AITests */,
+				570FB3F729975666003D6B24 /* Polyglot AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570FB3D629975663003D6B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570FB3E829975665003D6B24 /* LaunchScreen.storyboard in Resources */,
+				570FB3E529975665003D6B24 /* Assets.xcassets in Resources */,
+				570FB3E329975663003D6B24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FB3EC29975665003D6B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FB3F629975666003D6B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570FB3D429975663003D6B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B11522998AE9D001E403F /* NetworkManager.swift in Sources */,
+				570FB3E029975663003D6B24 /* ViewController.swift in Sources */,
+				570FB3DC29975663003D6B24 /* AppDelegate.swift in Sources */,
+				570FB3DE29975663003D6B24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FB3EA29975665003D6B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570FB3F329975666003D6B24 /* Polyglot_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570FB3F429975666003D6B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570FB3FF29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift in Sources */,
+				570FB3FD29975666003D6B24 /* Polyglot_AIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570FB3F029975665003D6B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570FB3D729975663003D6B24 /* Polyglot AI */;
+			targetProxy = 570FB3EF29975665003D6B24 /* PBXContainerItemProxy */;
+		};
+		570FB3FA29975666003D6B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570FB3D729975663003D6B24 /* Polyglot AI */;
+			targetProxy = 570FB3F929975666003D6B24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		570FB3E129975663003D6B24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570FB3E229975663003D6B24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570FB3E629975665003D6B24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570FB3E729975665003D6B24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570FB40029975666003D6B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		570FB40129975666003D6B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570FB40329975666003D6B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP8B6WBPCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polyglot AI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Polyglot-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		570FB40429975666003D6B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP8B6WBPCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Polyglot AI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Polyglot-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		570FB40629975666003D6B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP8B6WBPCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Polyglot-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polyglot AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Polyglot AI";
+			};
+			name = Debug;
+		};
+		570FB40729975666003D6B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP8B6WBPCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Polyglot-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polyglot AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Polyglot AI";
+			};
+			name = Release;
+		};
+		570FB40929975666003D6B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP8B6WBPCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Polyglot-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Polyglot AI";
+			};
+			name = Debug;
+		};
+		570FB40A29975666003D6B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP8B6WBPCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Polyglot-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Polyglot AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570FB3D329975663003D6B24 /* Build configuration list for PBXProject "Polyglot AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570FB40029975666003D6B24 /* Debug */,
+				570FB40129975666003D6B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570FB40229975666003D6B24 /* Build configuration list for PBXNativeTarget "Polyglot AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570FB40329975666003D6B24 /* Debug */,
+				570FB40429975666003D6B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570FB40529975666003D6B24 /* Build configuration list for PBXNativeTarget "Polyglot AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570FB40629975666003D6B24 /* Debug */,
+				570FB40729975666003D6B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570FB40829975666003D6B24 /* Build configuration list for PBXNativeTarget "Polyglot AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570FB40929975666003D6B24 /* Debug */,
+				570FB40A29975666003D6B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		572B114E2998AE6D001E403F /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		572B114F2998AE6D001E403F /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 572B114E2998AE6D001E403F /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 570FB3D029975663003D6B24 /* Project object */;
+}
