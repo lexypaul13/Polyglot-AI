@@ -18,6 +18,7 @@
 		570FB3FF29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FB3FE29975666003D6B24 /* Polyglot_AIUITestsLaunchTests.swift */; };
 		572B11502998AE6D001E403F /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 572B114F2998AE6D001E403F /* OpenAISwift */; };
 		572B11522998AE9D001E403F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B11512998AE9D001E403F /* NetworkManager.swift */; };
+		57FB4B0529BC6411001EE8FB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 57FB4B0429BC6411001EE8FB /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				572B11502998AE6D001E403F /* OpenAISwift in Frameworks */,
+				57FB4B0529BC6411001EE8FB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +152,7 @@
 			name = "Polyglot AI";
 			packageProductDependencies = (
 				572B114F2998AE6D001E403F /* OpenAISwift */,
+				57FB4B0429BC6411001EE8FB /* Lottie */,
 			);
 			productName = "Polyglot AI";
 			productReference = 570FB3D829975663003D6B24 /* Polyglot AI.app */;
@@ -225,6 +228,7 @@
 			mainGroup = 570FB3CF29975663003D6B24;
 			packageReferences = (
 				572B114E2998AE6D001E403F /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				57FB4B0329BC6411001EE8FB /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 570FB3D929975663003D6B24 /* Products */;
 			projectDirPath = "";
@@ -624,6 +628,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		57FB4B0329BC6411001EE8FB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -631,6 +643,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 572B114E2998AE6D001E403F /* XCRemoteSwiftPackageReference "OpenAISwift" */;
 			productName = OpenAISwift;
+		};
+		57FB4B0429BC6411001EE8FB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57FB4B0329BC6411001EE8FB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3DD3A260-A56D-471B-9CE6-BD54DA34BDDD"
-            shouldBeEnabled = "Yes"
+            uuid = "F31D25D7-4F90-4457-9DC5-4A82193DDACB"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Polyglot AI/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "getResponse(input:completion:)"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getTranslation(input:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
