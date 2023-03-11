@@ -1,8 +1,4 @@
-
-
-https://user-images.githubusercontent.com/55071531/224514928-3d0ad452-2741-437c-9cad-ce45dffc3893.MP4
-
-English to Nigerian Pidgin Translator
+# English to Nigerian Pidgin Translator
 
 This iOS app is a simple translator that converts English text to Nigerian Pidgin English. The app uses OpenAI's GPT-3 natural language processing model to perform the translation.
 
@@ -37,3 +33,5 @@ Integration with other natural language processing models for improved translati
 Acknowledgements
 
 This app was created as a learning project and uses OpenAI's GPT-3 model for the translation. Special thanks to the OpenAI team for making this amazing technology available to developers.
+
+https://user-images.githubusercontent.com/55071531/224514928-3d0ad452-2741-437c-9cad-ce45dffc3893.MP4
